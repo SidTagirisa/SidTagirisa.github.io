@@ -1,0 +1,255 @@
+{
+  "basics": {
+    "name": "Siddhardha Tagirisa",
+    "label": "Senior Software Engineer / Programmer",
+    "picture": "",
+    "email": "siddhardhatagirisa@gmail.com",
+    "phone": "+65-91799700",
+    "website": "https://sidtagirisa.github.io/",
+    "summary": "Software Engineer or Computer Programmer with 5 years of experience developing robust code for high-volume companies. A collaborative Full Stack Engineer specialized in agile development with computer science and engineering education at the National Institute of Technology, Rourkela.",
+    "expertise": [
+      "Back End / API Development",
+      "Front End web design / UI and UX Design",
+      "Mobile Application Development",
+      "Designing System Architecture",
+      "Performance / Enhancement Engineering",
+      "Microservice Architecture",
+      "Writing Technical Software Documentation",
+      "Functional Teamwork and Cross Communication",
+      "Project Management",
+      "Troubleshooting and Bug Fixing / Maintenance"
+    ],
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Singapore",
+      "countryCode": "SG",
+      "region": "Singapore"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "sidtagirisa",
+        "url": "https://github.com/sidtagirisa"
+      },
+      {
+        "network": "LinkedIN",
+        "username": "siddhardha-tagirisa",
+        "url": "https://www.linkedin.com/in/siddhardha-tagirisa/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "AXA",
+      "location": "Singapore",
+      "technologies": [
+        "JavaScript",
+        "TypeScript",
+        "Node.js",
+        "React.js",
+        "Next.js",
+        "React Native",
+        "Shell Scripting",
+        "MongoDB",
+        "RabbitMQ",
+        "OpenShift",
+        "AWS",
+        "Docker"
+      ],
+      "position": "Senior Software Engineer",
+      "website": "",
+      "startDate": "Feb 2019",
+      "endDate": "Present",
+      "summary": "Axa is a French multinational insurance firm that engages in global insurance, investment management, and other financial services.",
+      "highlights": [
+        "Renewals: Digital transformation and automation of insurance renewals for all AXA products through the development of a new generic platform powered by configuration, which increased the company’s renewals and revenues.",
+        "Microservices: Refactoring and adding new features to reduce technical debt and reduce request / response time by effectively using caching",
+        "Efficient Pricing: Increased efficiency in pricing products during the quotation phase by integrating machine learning into existing micro-services.",
+        "MyAXA Mobile App: Reduced the size of the MyAxa mobile application by using icons instead of images that result in reduced load time."
+      ]
+    },
+    {
+      "company": "Setuserv",
+      "location": "Hyderabad",
+      "technologies": [
+        "Python",
+        "JavaScript",
+        "Django",
+        "React.js",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Shell Scripting",
+        "RabbitMQ",
+        "Ant Design",
+        "Nginx",
+        "AWS",
+        "Docker"
+      ],
+      "position": "Senior Software Engineer",
+      "website": "",
+      "startDate": "Dec 2018",
+      "endDate": "Jan 2019",
+      "summary": "Setuserv is a team of data scientists, engineers and consultants committed to harnessing the vast powers of machine learning to solve distinct problems.",
+      "highlights": [
+        "Reporting: Developed a pipeline for storing and extracting information from raw text, leading to the elimination of manual labour.",
+        "Internal Tools: Built internal tools that are used by analytics managers to increase the accuracy of machine learning models.",
+        "Performance: Optimized most of the SQL queries already written using Django ORM, which in turn increased the performance by 40 per cent."
+      ]
+    },
+    {
+      "company": "Learnpedia",
+      "location": "Hyderabad",
+      "technologies": [
+        "Java",
+        "JavaScript",
+        "PHP",
+        "Play (Java)",
+        "MongoDB",
+        "Elastic Search",
+        "HTML",
+        "CSS3",
+        "Nginx",
+        "AWS"
+      ],
+      "position": "Software Engineer",
+      "website": "",
+      "startDate": "Oct 2015",
+      "endDate": "Nov 2017",
+      "summary": "Learnpedia is an edu-tech company that helps bridge the educational gap for students preparing competitive entrance exams.",
+      "highlights": [
+        "Doubts Forum: Optimised doubt allocation and reduced response time from 7 days to 24 hours",
+        "Test Loading: Developed a mechanism for automating the loading effort of the tests, which reduced manual effort by 30 days for 5 people to 2 days.",
+        "UI: Revamped the key features of the website using the Material Design UI, which increased the SEO ranking and the number of landings on the product.",
+        "Internal Tools: Implemented numerous features to include market intelligence to promote easy decision-making."
+      ]
+    },
+    {
+      "company": "Scholas",
+      "location": "Hyderabad",
+      "technologies": ["Ruby on Rails", "AWS"],
+      "position": "Founder, CMO and Developer",
+      "website": "",
+      "startDate": "Jan 2015",
+      "endDate": "Nov 2015",
+      "summary": "Scholas is a product developed for helping transform school administration from manual to digital.",
+      "highlights": [
+        "Product: Developed core product from scratch using bootstrap 3 and ruby on rails.",
+        "Marketing: Strategically marketing to reduce the initial costs of the company."
+      ]
+    },
+    {
+      "company": "Schoolcom",
+      "location": "Bangalore",
+      "technologies": ["PHP", "HTML"],
+      "position": "Software Engineer Internship",
+      "website": "",
+      "startDate": "May 2014",
+      "endDate": "July 2014",
+      "summary": "SchoolCom is a platform for the collection and analysis of student analytics for schools.",
+      "highlights": [
+        "Bug Fixes: Fixed various small bugs in the analytics platform which was built using PHP.",
+        "Learning: Strengthened my methodology of development under guidance."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "National Institute of Technology, Rourkela",
+      "major": "Computer Science and Engineering",
+      "studyType": "Bachelors",
+      "startDate": "June 2011",
+      "endDate": "May 2015",
+      "gpa": "",
+      "courses": [],
+      "graduationProject": {
+        "name": "Improving Performance of Job Scheduling Algorithms in Cloud Computing Environment",
+        "thesisLink": "http://ethesis.nitrkl.ac.in/7973/"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "level": "",
+      "keywords": ["JavaScript", "Python", "Java", "PHP", "Bash Scripting"]
+    },
+    {
+      "name": "Frameworks",
+      "level": "",
+      "keywords": [
+        "NodeJS - ExpressJS",
+        "ReactJS",
+        "Play - Java",
+        "Django",
+        "React Native"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "",
+      "keywords": ["MySQL", "PostgreSQL", "MongoDB", "Elasticsearch"]
+    },
+    {
+      "name": "Tools",
+      "level": "",
+      "keywords": ["Nginx", "AWS", "Jenkins", "OpenShift", "Docker", "RabbitMQ"]
+    }
+  ],
+  "Certifications": [
+    {
+      "name": "ICAgile Certified Professional",
+      "credential": "https://www.icagile.com/Certification/Verify-Credentials/ctl/UserDetails/mid/648/uid/9d3e747c-01e7-4c62-8c81-b85701a8e683",
+      "issued": "March 2019",
+      "validUpTo": "Lifetime"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Command Line program to paint",
+      "using": "Java",
+      "url": "https://github.com/setshaft/console-drawing"
+    },
+    {
+      "name": "Absence Manager",
+      "using": "Node.js, React.js",
+      "url": "https://github.com/setshaft/absence-manager"
+    },
+    {
+      "name": "Replica of Bill Pin",
+      "using": "Ruby on Rails",
+      "url": "https://github.com/setshaft/Devathon-Assaignment"
+    },
+    {
+      "name": "Prototype of Uber",
+      "using": "Play - Java",
+      "url": "https://github.com/setshaft/quintype"
+    },
+    {
+      "name": "Personal Website",
+      "using": "React.js, antd",
+      "url": "https://github.com/sidtagirisa/sidtagirisa.github.io"
+    }
+  ],
+  "currentlyWorkingOn": [
+    {
+      "name": "Algorithms and Data structures",
+      "description": "Implementing common data structures, sorting and searching algorithms in Java and Python for strengthening core concepts."
+    },
+    {
+      "name": "Auto Resume",
+      "description": "To fetch information from LinkedIN, utilize json resume schema and build with themes, for programmers by programmers"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Telugu",
+      "fluency": "Native Speaker"
+    }
+  ]
+}
