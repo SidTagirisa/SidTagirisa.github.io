@@ -154,7 +154,7 @@
       ]
     }
   ],
-  "education": [
+  "educations": [
     {
       "institution": "National Institute of Technology, Rourkela",
       "major": "Computer Science and Engineering",
@@ -197,7 +197,7 @@
       "keywords": ["Nginx", "AWS", "Jenkins", "OpenShift", "Docker", "RabbitMQ"]
     }
   ],
-  "Certifications": [
+  "certifications": [
     {
       "name": "ICAgile Certified Professional",
       "credential": "https://www.icagile.com/Certification/Verify-Credentials/ctl/UserDetails/mid/648/uid/9d3e747c-01e7-4c62-8c81-b85701a8e683",
@@ -209,22 +209,22 @@
     {
       "name": "Command Line program to paint",
       "using": "Java",
-      "url": "https://github.com/setshaft/console-drawing"
+      "url": "https://github.com/sidtagirisa/console-drawing"
     },
     {
       "name": "Absence Manager",
       "using": "Node.js, React.js",
-      "url": "https://github.com/setshaft/absence-manager"
+      "url": "https://github.com/sidtagirisa/absence-manager"
     },
     {
       "name": "Replica of Bill Pin",
       "using": "Ruby on Rails",
-      "url": "https://github.com/setshaft/Devathon-Assaignment"
+      "url": "https://github.com/sidtagirisa/Devathon-Assaignment"
     },
     {
       "name": "Prototype of Uber",
       "using": "Play - Java",
-      "url": "https://github.com/setshaft/quintype"
+      "url": "https://github.com/sidtagirisa/quintype"
     },
     {
       "name": "Personal Website",
