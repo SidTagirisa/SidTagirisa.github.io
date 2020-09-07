@@ -11,9 +11,13 @@ export default function Experience() {
       <Col>
         <Divider>Experience / Work History</Divider>
         <Timeline>
-          {details.work.map((job) => {
+          {details.work.map((job, idx) => {
             return (
-              <Timeline.Item dot={<HistoryOutlined />}>
+              <Timeline.Item
+                dot={<HistoryOutlined />}
+                className="avoid-break"
+                key={`experience-${idx}`}
+              >
                 <Row justify="space-between">
                   <Col>
                     <Title level={4}>
@@ -29,17 +33,19 @@ export default function Experience() {
                 <Text strong>{job.position}</Text>
                 <Paragraph>
                   Technologies Used:{' '}
-                  {job.technologies.map((tech) => (
-                    <Tag color="red">{tech}</Tag>
+                  {job.technologies.map((tech, idx) => (
+                    <Tag color="red" key={`job-${idx}`}>
+                      {tech}
+                    </Tag>
                   ))}
                 </Paragraph>
-                {job.highlights.map((highlight) => (
-                  <>
+                {job.highlights.map((highlight, idx) => (
+                  <React.Fragment key={`highlight-${idx}`}>
                     <Text>
                       <ForwardOutlined /> {highlight}
                     </Text>
                     <br></br>
-                  </>
+                  </React.Fragment>
                 ))}
               </Timeline.Item>
             );

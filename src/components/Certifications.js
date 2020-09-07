@@ -6,11 +6,11 @@ const { Title, Text, Link } = Typography;
 
 export default function Certifications() {
   return (
-    <Col>
+    <Col className="avoid-break">
       <Divider>Certifications</Divider>
-      {details.certifications.map((certification) => {
+      {details.certifications.map((certification, idx) => {
         return (
-          <>
+          <React.Fragment key={`certification-${idx}`}>
             <Row justify="space-between">
               <Col>
                 <Title level={4}>{certification.name}</Title>
@@ -25,7 +25,7 @@ export default function Certifications() {
             <Link href={certification.credential} target="_blank">
               {certification.credential}
             </Link>
-          </>
+          </React.Fragment>
         );
       })}
     </Col>

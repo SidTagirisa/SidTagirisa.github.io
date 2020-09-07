@@ -8,9 +8,9 @@ export default function Projects() {
   return (
     <Col>
       <Divider>Projects</Divider>
-      {details.projects.map((project) => {
+      {details.projects.map((project, idx) => {
         return (
-          <Row>
+          <Row key={`project-${idx}`}>
             <Paragraph>
               {project.name}:{' '}
               <Link href={project.url} target="_blank">

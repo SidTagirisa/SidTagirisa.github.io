@@ -11,9 +11,9 @@ export default function Education() {
       <Col>
         <Divider>Education</Divider>
         <Timeline>
-          {details.educations.map((education) => {
+          {details.educations.map((education, idx) => {
             return (
-              <Timeline.Item dot={<HistoryOutlined />}>
+              <Timeline.Item dot={<HistoryOutlined />} key={`education-${idx}`}>
                 <Row justify="space-between">
                   <Col>
                     <Title level={4}>{education.institution}</Title>

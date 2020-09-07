@@ -8,10 +8,12 @@ export default function Skills() {
       <Col>
         <Divider>Programming Skills</Divider>
         <Descriptions size="small" bordered>
-          {details.skills.map((item) => (
-            <Descriptions.Item label={item.name} span={3}>
-              {item.keywords.map((tech) => (
-                <Tag color="red">{tech}</Tag>
+          {details.skills.map((item, idx) => (
+            <Descriptions.Item label={item.name} span={3} key={`skill-${idx}`}>
+              {item.keywords.map((tech, idx) => (
+                <Tag color="red" key={`skill-item-${idx}`}>
+                  {tech}
+                </Tag>
               ))}
             </Descriptions.Item>
           ))}
