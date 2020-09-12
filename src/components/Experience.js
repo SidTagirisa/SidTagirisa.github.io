@@ -1,4 +1,4 @@
-import { ForwardOutlined, HistoryOutlined } from '@ant-design/icons';
+import { HistoryOutlined } from '@ant-design/icons';
 import { Col, Divider, Row, Tag, Timeline, Typography } from 'antd';
 import React from 'react';
 import details from '../resume/resume.json';
@@ -41,9 +41,7 @@ export default function Experience() {
                 </Paragraph>
                 {job.highlights.map((highlight, idx) => (
                   <React.Fragment key={`highlight-${idx}`}>
-                    <Text>
-                      <ForwardOutlined /> {highlight}
-                    </Text>
+                    <Text>&#8226; {highlight}</Text>
                     <br></br>
                   </React.Fragment>
                 ))}

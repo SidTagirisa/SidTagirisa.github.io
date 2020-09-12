@@ -1,23 +1,21 @@
 {
   "basics": {
     "name": "Siddhardha Tagirisa",
-    "label": "Senior Software Engineer / Programmer",
+    "label": "Software Engineer / Full Stack Developer",
     "picture": "",
     "email": "siddhardhatagirisa@gmail.com",
     "phone": "+65-91799700",
     "website": "https://sidtagirisa.github.io/",
-    "summary": "Software Engineer or Computer Programmer with 5 years of experience developing robust code for high-volume companies. A collaborative Full Stack Engineer specialized in agile development with computer science and engineering education at the National Institute of Technology, Rourkela.",
+    "summary": "Software Engineer or Full Stack Developer who is a coding jack-of-all-trades who has mastered every part of the development stack with 5 years of industry experience.I have a passion to solve problems that matter to consumers by writing high-performance and scalable software. Holds a bachelor's degree in computer science from NIT Rourkela.",
     "expertise": [
-      "Back End / API Development",
-      "Front End web design / UI and UX Design",
-      "Mobile Application Development",
-      "Designing System Architecture",
+      "Back End and Front End Development",
+      "Basic Design Ability",
+      "Low level and High level system design",
       "Performance / Enhancement Engineering",
-      "Microservice Architecture",
-      "Writing Technical Software Documentation",
+      "Micro-service Architecture and Development",
       "Functional Teamwork and Cross Communication",
-      "Project Management",
-      "Troubleshooting and Bug Fixing / Maintenance"
+      "Database Technology",
+      "Mobile Application Development"
     ],
     "location": {
       "address": "",
@@ -63,10 +61,11 @@
       "endDate": "Present",
       "summary": "Axa is a French multinational insurance firm that engages in global insurance, investment management, and other financial services.",
       "highlights": [
-        "Renewals: Digital transformation and automation of insurance renewals for all AXA products through the development of a new generic platform powered by configuration, which increased the company’s renewals and revenues.",
-        "Microservices: Refactoring and adding new features to reduce technical debt and reduce request / response time by effectively using caching",
-        "Efficient Pricing: Increased efficiency in pricing products during the quotation phase by integrating machine learning into existing micro-services.",
-        "MyAXA Mobile App: Reduced the size of the MyAxa mobile application by using icons instead of images that result in reduced load time."
+        "Building new jsonschema configuration-enabled platform which is being used by various cross functional teams to increase renewals and revenues.",
+        "Adding new features to several existing micro-services on a daily basis, either to reduce technical debt or to improve efficiency and performance.",
+        "As part of a project financed by the Singapore Government, increased the efficiency of insurance quotes through the use of machine learning.",
+        "Built a frontend application for letting users download documents securely.",
+        "Added various features and Reduced the size of the MyAxa mobile application by using icons instead of images that result in reduced load time."
       ]
     },
     {
@@ -93,9 +92,9 @@
       "endDate": "Jan 2019",
       "summary": "Setuserv is a team of data scientists, engineers and consultants committed to harnessing the vast powers of machine learning to solve distinct problems.",
       "highlights": [
-        "Reporting: Developed a pipeline for storing and extracting information from raw text, leading to the elimination of manual labour.",
-        "Internal Tools: Built internal tools that are used by analytics managers to increase the accuracy of machine learning models.",
-        "Performance: Optimized most of the SQL queries already written using Django ORM, which in turn increased the performance by 40 per cent."
+        "Led and owned the backend and frontend development of client facing application in the data pipeline for the consumption of analytics.",
+        "Optimized platform by identifying slower SQL queries using Django ORM and PostgreSQL materialized views which lead to increased performance by 40 per cent",
+        "Worked on building a four-stage data pipeline from scratch involving scraping, tagging and storing large data sets."
       ]
     },
     {
@@ -119,10 +118,10 @@
       "endDate": "Nov 2017",
       "summary": "Learnpedia is an edu-tech company that helps bridge the educational gap for students preparing competitive entrance exams.",
       "highlights": [
-        "Doubts Forum: Optimised doubt allocation and reduced response time from 7 days to 24 hours",
-        "Test Loading: Developed a mechanism for automating the loading effort of the tests, which reduced manual effort by 30 days for 5 people to 2 days.",
-        "UI: Revamped the key features of the website using the Material Design UI, which increased the SEO ranking and the number of landings on the product.",
-        "Internal Tools: Implemented numerous features to include market intelligence to promote easy decision-making."
+        "Optimized doubt allocation and reduced response time from 7 days to 24 hours",
+        "Developed a mechanism for automating the loading effort of the tests, which reduced manual effort by 30 days for 5 people to 2 days.",
+        "Revamped the key features of the website using the Material Design UI, which increased the SEO ranking and the number of landings on the product.",
+        "Implemented numerous features to include market intelligence to promote easy decision-making."
       ]
     },
     {
@@ -162,7 +161,16 @@
       "startDate": "June 2011",
       "endDate": "May 2015",
       "gpa": "",
-      "courses": [],
+      "courses": [
+        "Data Structures and Algorithms",
+        "Database Management Systems",
+        "Algorithm Analysis and Design",
+        "Systems Analysis and Design",
+        "Optimization Techniques",
+        "Computer Networks",
+        "Data Warehousing and Mining",
+        "Software Engineering"
+      ],
       "graduationProject": {
         "name": "Improving Performance of Job Scheduling Algorithms in Cloud Computing Environment",
         "thesisLink": "http://ethesis.nitrkl.ac.in/7973/"
@@ -207,29 +215,46 @@
   ],
   "projects": [
     {
-      "name": "Command Line program to paint",
-      "using": "Java",
-      "url": "https://github.com/sidtagirisa/console-drawing"
+      "name": "absence-manager",
+      "html_url": "https://github.com/sidtagirisa/absence-manager",
+      "created_at": "2020-05-06T04:06:28Z",
+      "updated_at": "2020-06-11T03:21:30Z"
     },
     {
-      "name": "Absence Manager",
-      "using": "Node.js, React.js",
-      "url": "https://github.com/sidtagirisa/absence-manager"
+      "name": "console-drawing",
+      "html_url": "https://github.com/sidtagirisa/console-drawing",
+      "created_at": "2019-12-05T02:57:55Z",
+      "updated_at": "2020-01-18T08:32:53Z"
     },
     {
-      "name": "Replica of Bill Pin",
-      "using": "Ruby on Rails",
-      "url": "https://github.com/sidtagirisa/Devathon-Assaignment"
+      "name": "bill-pin-clone",
+      "html_url": "https://github.com/sidtagirisa/Devathon-Assaignment",
+      "created_at": "2015-09-27T13:19:28Z",
+      "updated_at": "2015-09-27T13:20:20Z"
     },
     {
-      "name": "Prototype of Uber",
-      "using": "Play - Java",
-      "url": "https://github.com/sidtagirisa/quintype"
+      "name": "sidtagirisa.github.io",
+      "html_url": "https://github.com/sidtagirisa/sidtagirisa.github.io",
+      "created_at": "2020-08-30T08:58:24Z",
+      "updated_at": "2020-09-07T00:14:02Z"
     },
     {
-      "name": "Personal Website",
-      "using": "React.js, antd",
-      "url": "https://github.com/sidtagirisa/sidtagirisa.github.io"
+      "name": "teachers-api",
+      "html_url": "https://github.com/sidtagirisa/teachers-api",
+      "created_at": "2020-06-19T09:09:24Z",
+      "updated_at": "2020-06-20T03:28:28Z"
+    },
+    {
+      "name": "users_listing",
+      "html_url": "https://github.com/sidtagirisa/users_listing",
+      "created_at": "2020-08-21T10:50:23Z",
+      "updated_at": "2020-09-12T11:47:15Z"
+    },
+    {
+      "name": "version-bump-prompt",
+      "html_url": "https://github.com/sidtagirisa/version-bump-prompt",
+      "created_at": "2020-08-01T02:52:57Z",
+      "updated_at": "2020-08-29T14:24:02Z"
     }
   ],
   "currentlyWorkingOn": [

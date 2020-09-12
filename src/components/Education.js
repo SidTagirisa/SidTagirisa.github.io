@@ -1,5 +1,5 @@
 import { HistoryOutlined } from '@ant-design/icons';
-import { Col, Divider, Row, Timeline, Typography } from 'antd';
+import { Col, Divider, Row, Tag, Timeline, Typography } from 'antd';
 import React from 'react';
 import details from '../resume/resume.json';
 
@@ -38,6 +38,14 @@ export default function Education() {
                   >
                     {education.graduationProject.thesisLink}
                   </Link>
+                </Paragraph>
+                <Paragraph>
+                  Important Course Work:{' '}
+                  {education.courses.map((course, idx) => (
+                    <Tag color="red" key={`course-${idx}`}>
+                      {course}
+                    </Tag>
+                  ))}
                 </Paragraph>
               </Timeline.Item>
             );
